@@ -1,8 +1,8 @@
 ﻿#Code Name: System_Stalker.ps1
 #Global Save location; Modify as needed
-$SaveLocation = $env:SystemDrive+"\Users\Charles.Kwiatkowski\Desktop\Dub_Test\"+$FileName
+$SaveLocation = $env:SystemDrive+"DIRECTORY_PATH"+$FileName
 #starts in C:\Users so that it is able to pick up on userdata as opposed to the whole drive, unless need whole drive.
-$ScanDir = $env:SystemDrive+"\Users\*"
+$ScanDir = $env:SystemDrive+"SCAN_START_DIR"
 $Starting = " Start collection of "
 $H1 = " -------------------------------- "
 
