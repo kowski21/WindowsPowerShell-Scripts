@@ -1,1 +1,0 @@
-﻿Test-Path "\\HQUWGEOCXMD0064\C$\Users\charles.kwiatkowski\Desktop\Dub_Test"
