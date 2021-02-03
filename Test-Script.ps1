@@ -1,7 +1,7 @@
 ﻿#Collection Script
 
-$ScriptPath = "\\macduhpxnappx01\office_shares\J6\J63\CPT700\Cyber Threat Emulation\Ski_Test\Test_Script\System-Stalker.ps1"
-$FileDropPath = "\\macduhpxnappx01\office_shares\J6\J63\CPT700\Cyber Threat Emulation\Ski_Test\Test_Drop\"
+$ScriptPath = "System-Stalker.ps1"
+$FileDropPath = ""
 
 $regex = ‘\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b’
 $FolderName = ipconfig | findstr "IPv4" | Select-String -Pattern $regex -AllMatches | % { $_.Matches } | % { $_.Value }
